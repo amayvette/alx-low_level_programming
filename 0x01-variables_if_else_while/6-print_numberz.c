@@ -1,12 +1,18 @@
 #include <stdio.h>
+
 /**
- * main - print single digit numbers
+ * main - Prints numbers from 0 to 9.
  *
- * Return: always 0 (success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int base = 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 22, 33
-		putchar("%s\n", base);
+	int i;
+
+	for (i = 48; i < 58; i++)
+	{
+		putchar(i);
+	}
+	putchar('\n');
 	return (0);
 }
